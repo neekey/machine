@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{ margin:0px; padding:0px}
+body{font-family:"宋体"; width:1003px; margin:0px auto; background:url(../image/bg.png)}
+img{ border:0px}
+.floatleft{float:left;}
+.floatright{float:right;}
+.clear{clear:both;}
+ul,ol{margin:0px;padding:0px; list-style:none}
+
+#nav a:link,#nav a:visited{color:#FFF;text-decoration:none;}
+#nav a:hover{color:#FF0;text-decoration:underline;}
+#nav .active a:link, #nav .active a:visited{color:#FF0;text-decoration:none;}
+
+#more1 a:link,#more1 a:visited{color:#FFF;text-decoration:none;}
+#more1 a:hover{color:#000;text-decoration:underline;}
+#shop a:link,#shop a:visited{color:#000;text-decoration:none;}
+#shop a:hover{color:#000;text-decoration:underline;}
+#title_more a:link,#title_more a:visited{color:#FFFFFF;text-decoration:none;}  //More字体颜色
+#title_more a:hover{color:#000;text-decoration:underline;}
+#more2 a:link,#more2 a:visited{color:#F00;text-decoration:none;}
+#more2 a:hover{color:#000;text-decoration:underline;}
+
+
+
+#border_1{border:0px}
+
+#shop ul li{font-size:12px; font-family:"宋体";}
+#copyRight ul{ text-align:center; list-style:none; padding-top:15px}
+
+#login{float:right; width:320px; text-align:right; font-size:12px;margin-top:120px;}
+#login_1{ margin-right:10px}
+#login_2{margin-right:10px}
+/*#login_3{border:1px #ccc solid; width:40px; height:15px; background:url(../image/front-bg.png) left bottom repeat-x; line-height:16px; vertical-align:middle; font-size:12px;color: #666699}*/
+#login_3{height:15px; vertical-align:middle; font-size:12px;color: #666699}
+#login .text{font-family: "Verdana"; font-size: 12px; line-height: 16px; text-decoration: none}
+#content{ width:1003px; margin:0px auto; background:#FFF}
+#header{ background:url(../image/top1.jpg) left top no-repeat; height:152px; width:1003px}
+#nav{ background:url(../image/nav3.jpg) left top no-repeat; height:35px; width:1003px; font-family:'微软雅黑', '宋体'; font-size:16px; line-height:40px; vertical-align:middle;}
+#nav_1{margin:30px; color:#FF0}
+#nav_2{margin:30px}
+#nav_3{margin:25px}
+#nav_4{margin:32px}
+#nav_5{margin:26px}
+#nav_6{margin:29px}
+#nav_7{margin:28px}
+#nav_8{margin:34px}
+#title_1{ height:27px; background:url(../image/icon1.jpg) 3px 4px no-repeat;}
+#title_1 span{ font-size:16px; font-family:'黑体'; line-height:27px; padding-left:25px; color:#00366C}
+#line{ background:#CCC; line-height:1px}
+#photo{ padding:10px 22px 0px;}
+#show{font-size:12px; font-family:"宋体"; list-style:none; padding:0px 25px 0px;}
+#show li{ line-height:20px;}
+#more1{border:0px; float:right; margin-right:22px; font-size:16px; font-family:'黑体'; font-weight:bold}
+#system{margin-top:8px; margin-left:5px; margin-right:5px; background: url(../image/bg1-1.jpg); height:26px; line-height:26px; text-align:center;font-size:16px; font-family:'微软雅黑'; color:#006699}
+#system_1{ margin-top:5px; margin-left:5px; margin-right:5px; background: url(../image/bg1-1.jpg); text-align:center; height:80px; padding-left:8px; padding-top:18px}
+#system_2{margin-top:5px; margin-left:5px; margin-right:5px; background: url(../image/bg1-1.jpg); text-align:center; height:80px; padding-left:8px; padding-top:5px; padding-bottom:15px;}
+#distance{height:5px}
+#search{ margin-top:5px;  height:20px; line-height:20px; font-family:"宋体"; font-size:12px}
+
+#main{ height:630px; width:1003px; border:#CCC 1px solid}
+#sideBar{ width:183px; height:630px; background:url(../image/bg1.jpg)}
+#container{width:813px; height:620px;}
+#banner{ width:813px; height:100px}
+#shop{width:813px; height:530px; font:14px Arial, Helvetica, sans-serif}
+#shop_1{ width:813px; height:265px;}
+#shop_2{width:813px; height:265px;}
+#fill{ width:356px; height:200px; margin-top:7px; padding-left:30px;padding-top:10px; background:url(../image/bg3.jpg); border:#CCC 1px solid}
+#fill ul{list-style:url(../image/icon2.gif); height:170px}
+#fill li{clear:right; line-height:18px; width:240px; overflow:hidden; white-space:nowrap; -o-text-overflow: ellipsis;text-overflow: ellipsis;}
+.time{font-size:12px; text-align:center; padding-left:10px;}
+#more2{ float:right; height:20px; margin-right:20px; font-size:12px; font-family:"宋体"; margin-top:12px;}
+#notice{display:inline;width:388px; height:250px; margin:7px auto 7px; margin-left:10px; margin-right:12px}
+#title_2{ height:22px; line-height:22px; text-align:right; background-color:#0099CC}
+#title_3{ background:url(../image/guide_1.jpg); height:22px; line-height:22px; text-align:right;}
+#title_4{ background:url(../image/guide_1.jpg); height:22px; line-height:22px; text-align:right;}
+#title_5{ background:url(../image/guide_1.jpg); height:22px; line-height:22px; text-align:right;}
+.title_z{ padding-left:30px; color:#FFFFFF; width:300px; font-size:13px; font-family:'微软雅黑','黑体'}
+#title_more{ padding-right:9px; background-color:#0099CC}
+#title_t{ background-color:#0099CC}
+#news{width:388px; height:250px; margin:7px 7px 7px;}
+#information{display:inline;width:388px; height:250px; margin:7px auto 7px; margin-left:10px; margin-right:12px}
+#guide{width:388px; height:250px; margin:7px 7px 7px;}
+#copyRight{ height:74px; width:1003px; font-family:'宋体'; font-size:12px; color:#597D93}
+#copyRight a {color:#597D93}
+#copyRight a:hover {color:#7798EE}
+#copyRight a:visited {color:#597D93}
+#copyRight span{ color:#0F0}
